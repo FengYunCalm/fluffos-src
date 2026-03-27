@@ -1,7 +1,9 @@
 FluffOS licensing notice
 ========================
 
-This repository follows the "License & Copyright" section in docs/index.md.
+This repository follows the "License & Copyright" section in docs/index.md and the official FluffOS site:
+- https://www.fluffos.info (License & Copyright)
+
 The current FluffOS release is MIT-licensed (see LICENSE).
 
 Historical / legacy code
@@ -9,6 +11,10 @@ Historical / legacy code
 The file "Copyright" at the repository root records historical LPmud/MudOS
 copyright restrictions, including a "no monetary gain" restriction. Those
 restrictions apply to legacy LPmud/MudOS-derived components as stated there.
+
+Official references:
+- https://github.com/fluffos/fluffos/blob/master/docs/index.md
+- https://github.com/fluffos/fluffos/blob/master/Copyright
 
 Third-party dependencies
 ------------------------
