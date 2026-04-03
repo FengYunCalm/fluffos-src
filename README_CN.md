@@ -23,7 +23,6 @@ cd fluffos-src
 ## 文档
 
 - 官方文档：https://www.fluffos.info
-- 官方构建指南：https://www.fluffos.info/build.html
 - 本地文档入口：`docs/index.md`
 - 本分支变更记录：`CHANGELOG.md`
 - 完整功能列表与历史说明请参考上游文档。
