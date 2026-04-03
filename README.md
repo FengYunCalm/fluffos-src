@@ -1,15 +1,14 @@
 # FluffOS (fork)
 
-This repository is a fork of FluffOS focused on build reliability and compiler warning cleanup for modern toolchains,
-with special attention to Windows/MSYS2 installations.
+English | [简体中文](README_CN.md)
+
+This repository is a fork of FluffOS focused on build reliability and compiler warning cleanup for modern toolchains, with special attention to Windows/MSYS2 installations.
 
 ## What this fork changes
 
-- **Windows install reliability**: `cmake --install` uses `bash cp -f` to overwrite binaries safely and avoid
-  “Permission denied” when replacing `driver.exe` and related tools.
+- **Windows install reliability**: `cmake --install` uses `bash cp -f` to overwrite binaries safely and avoid “Permission denied” when replacing `driver.exe` and related tools.
 - **Core warning cleanup**: targeted fixes in scratchpad, preprocessor, ed, telnet_ext, external, and socket_efuns.
-- **Third‑party warning control**: warning suppression and IPO disabled where needed in libevent/crypt/libwebsockets;
-  filesystem CMake minimum version aligned for compatibility.
+- **Third-party warning control**: warning suppression and IPO disabled where needed in libevent/crypt/libwebsockets; filesystem CMake minimum version aligned for compatibility.
 - **License alignment**: LICENSE/NOTICE added and README updated to reference official FluffOS license sources.
 
 ## Build
@@ -23,8 +22,7 @@ with special attention to Windows/MSYS2 installations.
   cmake --build . --target install
   ```
 
-- Windows/MSYS2 note: ensure `bash` is available in your environment; the install step relies on it for safe
-  binary replacement.
+- Windows/MSYS2 note: ensure `bash` is available in your environment; the install step relies on it for safe binary replacement.
 
 ## Documentation
 
@@ -52,7 +50,7 @@ See `CODE_OF_CONDUCT.md`.
   - https://www.fluffos.info (License & Copyright)
   - `docs/index.md`
 - Historical LPmud/MudOS restrictions apply to legacy components; see `Copyright`.
-- Third‑party licenses: see `NOTICE` and `src/thirdparty/*`.
+- Third-party licenses: see `NOTICE` and `src/thirdparty/*`.
 
 ## Upstream
 
