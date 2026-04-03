@@ -23,7 +23,6 @@ This README stays at source-repository scope. It does not claim any packaged dis
 ## Documentation
 
 - Official docs: https://www.fluffos.info
-- Official build guide: https://www.fluffos.info/build.html
 - Local docs entry: `docs/index.md`
 - Changelog for this fork: `CHANGELOG.md`
 - For full feature lists and historical notes, see upstream documentation.
